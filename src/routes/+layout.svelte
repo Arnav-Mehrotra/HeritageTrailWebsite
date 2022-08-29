@@ -1,8 +1,11 @@
 <script>
-import "../app.postcss";
-import Footer from "$lib/Componets/footer.svelte"
+	import Header from '$lib/Components/header.svelte';
+	import '../app.postcss';
+	import Footer from '$lib/Components/footer.svelte';
 </script>
-<slot>
 
+<Header />
+<slot>
+	<!--Keep Empty For Content-->
 </slot>
-<Footer/>
+<Footer />

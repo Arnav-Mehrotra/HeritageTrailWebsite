@@ -1,7 +1,7 @@
 <script>
-import "../../app.postcss";
+	import '../../app.postcss';
 </script>
 
 <slot>
-    
+	<!--Keep Empty For Content-->
 </slot>
