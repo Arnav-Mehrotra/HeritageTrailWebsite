@@ -1,4 +1,5 @@
 <script>
+ import Header from "$lib/Componets/header.svelte"
 	const ACTIONURL = 'https://submit-form.com/echo';
 	let message = '';
 	let email = '';
@@ -46,67 +47,17 @@ Footer Code Placement
 	async function CheckCurrentURL(URL) {
 		return false;
 	}
+
+
+
+
 </script>
 
 <div class="text-TextPrimary">
+    <Header/>
 	<header>
 		<section>
-			<nav class="py-4 bg-[#295936]">
-				<div class="container mx-auto px-4">
-					<div class="relative flex items-center justify-between">
-						<div class="w-auto">
-							<a class="inline-block" href="#">
-								<img src="Images/logo.jpg" alt="" />
-							</a>
-						</div>
-						<div
-							class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden lg:block"
-						>
-							<ul class="flex items-center">
-								{#each FooterLinks.data as Link}
-									{#if CheckCurrentURL(Link) === true}
-										<li class="font-heading mr-12 text-base">
-											<a class="hover:text-white" href="/{Link}">{Link}</a>
-										</li>
-									{:else}
-										<li class="font-heading mr-12 text-base">
-											<a class="hover:text-white" href="/{Link}">{Link}</a>
-										</li>
-									{/if}
-								{/each}
-							</ul>
-						</div>
-						<div class="w-auto hidden lg:block">
-							<a
-								class="inline-block py-4 px-8 font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200"
-								href="#">Contact</a
-							>
-						</div>
-						<div class="w-auto lg:hidden">
-							<a
-								class="navbar-burger inline-flex w-14 h-14 justify-center items-center bg-gray-500 hover:bg-gray-600 rounded-full"
-								href="#"
-							>
-								<svg
-									width="20"
-									height="10"
-									viewBox="0 0 20 10"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										d="M19 9H1M19 1H1"
-										stroke="white"
-										stroke-width="1.5"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-									/>
-								</svg>
-							</a>
-						</div>
-					</div>
-				</div>
-			</nav>
+			
 			<div
 				class="pt-24 sm:pt-34 bg-cover h-full"
 				style="background-image: url('Images/megan-lee-sHq15rZgo1g-unsplash.jpg');"
@@ -213,61 +164,7 @@ Footer Code Placement
 				<div
 					class="navbar-backdrop fixed inset-0 backdrop-blur-xl backdrop-filter bg-gray-900 bg-opacity-80"
 				/>
-				<nav class="relative pt-7 pb-8 bg-white h-full overflow-y-auto">
-					<div class="flex flex-col px-6 h-full">
-						<a class="inline-block ml-4 mb-7" href="#">
-							<img src="acros-assets/logo/logo-acros-black.svg" alt="" />
-						</a>
-						<ul class="w-full mb-auto pb-16">
-							<li>
-								<a
-									class="font-heading block text-base font-medium py-4 px-6 hover:bg-green-50 rounded-sm"
-									href="#">Home</a
-								>
-							</li>
-							<li>
-								<a
-									class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm"
-									href="#">About</a
-								>
-							</li>
-							<li>
-								<a
-									class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm"
-									href="#">Company</a
-								>
-							</li>
-							<li>
-								<a
-									class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm"
-									href="#">Services</a
-								>
-							</li>
-							<li>
-								<a
-									class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm"
-									href="#">Testimonials</a
-								>
-							</li>
-							<li>
-								<a
-									class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm"
-									href="#">Contact</a
-								>
-							</li>
-						</ul>
-						<div class="w-full">
-							<a
-								class="block w-full py-4 px-4 mb-4 text-center font-heading font-medium text-base hover:text-green-500 border border-gray-900 hover:border-green-500 rounded-sm transition duration-200"
-								href="#">Log in</a
-							><a
-								class="block w-full py-4 px-4 mb-8 text-center font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200"
-								href="#">Sign up</a
-							>
-							<p class="pl-2 text-sm">2022 :copyright: NOTL</p>
-						</div>
-					</div>
-				</nav>
+			
 			</div>
 		</section>
 	</header>
@@ -398,6 +295,14 @@ Footer Code Placement
 			</div>
 		</section>
 	</footer>
+
+
+
+
+
+
+
+
 </div>
 
 <style>
