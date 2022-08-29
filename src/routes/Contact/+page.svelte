@@ -290,9 +290,9 @@ Footer Code Placement
 								in the form below.
 							</p>
 							<div class="grid grid-cols-2 gap-2">
-								<div>
+								<div class="grid">
 									<label for="email" class="font-semibold underline">Email</label>
-									<br />
+									
 									<input
 										type="email"
 										name="email"
@@ -301,9 +301,10 @@ Footer Code Placement
 										bind:value={email}
 									/>
 								</div>
-								<div>
+								<div class="grid">
 									<label for="phone" class="font-semibold underline">Phone Number</label>
-									<br />
+									
+                                
 									<input
 										type="tel"
 										name="phone"
