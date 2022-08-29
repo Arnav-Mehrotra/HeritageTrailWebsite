@@ -67,6 +67,7 @@
                         href="https://www.facebook.com/heritagetrailNOTL/ "
                         target="_blank"
                         rel="noopener noreferrer"
+                        class="text-TextPrimary"
                         >@heritagetrailNOTL
                     </a>
                 </small>

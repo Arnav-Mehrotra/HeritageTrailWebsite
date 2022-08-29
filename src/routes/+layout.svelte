@@ -1,1 +1,8 @@
-<script>import "../app.postcss";</script><slot></slot>
+<script>
+import "../app.postcss";
+import Footer from "$lib/Componets/footer.svelte"
+</script>
+<slot>
+
+</slot>
+<Footer/>
