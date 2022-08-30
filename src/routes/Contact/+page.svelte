@@ -210,7 +210,7 @@ Footer Code Placement
 								bind:value={message}
 							/>
 							<br />
-							<button type="submit" class="px-4 py-2 bg-blue-300 text-black rounded m-2"
+							<button type="submit" class="px-4 py-2 bg-blue-300 text-black rounded m-2 text-blue-900"
 								>Submit</button
 							>
 						</form>

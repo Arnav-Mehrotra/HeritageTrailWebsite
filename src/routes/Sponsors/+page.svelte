@@ -1,4 +1,17 @@
 <script>
+
+import { Swiper, SwiperSlide } from "swiper/svelte";
+
+// Import Swiper styles
+import "swiper/css";
+
+import "swiper/css/navigation";
+
+
+// import required modules
+import { Navigation } from "swiper";
+
+
 	const ACTIONURL = 'https://submit-form.com/echo';
 	let message = '';
 	let email = '';
@@ -49,12 +62,22 @@
 </script>
 
 <div class="text-TextPrimary">
+	<Swiper navigation={true} modules={[Navigation]} class="mySwiper">
+		<SwiperSlide>Slide 1</SwiperSlide><SwiperSlide>Slide 2</SwiperSlide
+		><SwiperSlide>Slide 3</SwiperSlide><SwiperSlide>Slide 4</SwiperSlide
+		><SwiperSlide>Slide 5</SwiperSlide><SwiperSlide>Slide 6</SwiperSlide
+		><SwiperSlide>Slide 7</SwiperSlide><SwiperSlide>Slide 8</SwiperSlide
+		><SwiperSlide>Slide 9</SwiperSlide>
+	  </Swiper>
 	<div class="flex flex-row">
 		<div class="basis-1/4" />
 		<div class="basis-2/4 items-center">
 			<h3 class="text-xl font-semibold">
 				A huge thank you to everyone who sponsors the Heritage Trail!
 			</h3>
+		
+
+
 			<a href="Images/Trail Plaque.pdf" target="_blank">
 				<img
 					alt="Plaque with all the names of individuals who sposored the heritage trail"
@@ -85,5 +108,6 @@
 			/>
 		</div>
 		<div class="basis-1/4" />
+
 	</div>
 </div>
