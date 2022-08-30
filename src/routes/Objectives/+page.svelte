@@ -5,28 +5,44 @@
 	<div class="flex flex-row">
 		<div class="basis-1/4" />
 		<div class="basis-2/4 items-center">
-			<h3 class="text-xl font-semibold">Our Vision</h3>
-            <br />
-			<p>
-				The Heritage Trail corridor had deteriorated over the years to a muddy track, inaccessible
-				and overgrown in some parts and severely eroded towards southern end. The trail was losing
-				its “visibility” in both a physical sense and in the overall consciousness of the Town of
-				Niagara-on-the-Lake.<br /><br />
-				In 2017 the Niagara-on-the-Lake Sesquicentennial Committee chose the rehabilitation of the trail
-				as its Legacy Project, and in 2019 an official committee of the Town was established to raise
-				funds and awareness and to restore the trail into a multi-use recreational trial that will support
-				walkers, cyclists, equestrians and eco-tourists. Its full restoration as a rehabilitated trail
-				will make it an important multi-use pathway connecting the communities of the Old Town with St
-				Davids and Queenston.<br /><br />
-				To date donations have been from local “Trail Blazers” and generous local and major corporations.
-				These donations have enabled 1.5 km of the 10 km long trail to be restored.<br /><br />
-				The vision of the trail as conceived during Canada’s Sesquicentennial celebrations is a grand,
-				public-spirited endeavour, building on Niagara-on-the-Lake’s history, spanning a huge swath of
-				its territory from the Common in Old Town to York Road and the Bruce Trail, providing a legacy
-				for current and future generations, and something of the which the Town can be both proud and
-				supportive.
-			</p>
-			<hr />
+
+
+<div class="mt-5">
+	<h3 class="text-2xl font-semibold text-TextSeccondary my-2 border-b pb-2">Our Vision</h3>
+            
+	<figure class="my-3">
+		<img src="/Images/Trail July 2021.jpg"
+			 alt="The Trail as of 2021"
+			 class="w-full rounded-t">
+		<figcaption class="bg-slate-900 rounded-b text-slate-400 text-center">
+			The Trail as of 2021
+		</figcaption>
+	</figure>
+
+
+	<p class="tracking-wide leading-7 text-shadow">
+		The Heritage Trail corridor had deteriorated over the years to a muddy track, inaccessible
+		and overgrown in some parts and severely eroded towards southern end. The trail was losing
+		its “visibility” in both a physical sense and in the overall consciousness of the Town of
+		Niagara-on-the-Lake.</p>
+		<p class="tracking-wide leading-7 text-shadow">In 2017 the Niagara-on-the-Lake Sesquicentennial Committee chose the rehabilitation of the trail
+		as its Legacy Project, and in 2019 an official committee of the Town was established to raise
+		funds and awareness and to restore the trail into a multi-use recreational trial that will support
+		walkers, cyclists, equestrians and eco-tourists. Its full restoration as a rehabilitated trail
+		will make it an important multi-use pathway connecting the communities of the Old Town with St
+		Davids and Queenston.</p>
+		<p class="tracking-wide leading-7 text-shadow">To date donations have been from local “Trail Blazers” and generous local and major corporations.
+		These donations have enabled 1.5 km of the 10 km long trail to be restored.
+		The vision of the trail as conceived during Canada’s Sesquicentennial celebrations is a grand,
+		public-spirited endeavour, building on Niagara-on-the-Lake’s history, spanning a huge swath of
+		its territory from the Common in Old Town to York Road and the Bruce Trail, providing a legacy
+		for current and future generations, and something of the which the Town can be both proud and
+		supportive.
+	</p>
+	<hr class="my-5" />
+</div>
+
+
 			<h3 class="text-xl font-semibold">History</h3>
 			<br />
 			<p>
@@ -77,3 +93,11 @@
 		<div class="basis-1/4" />
 	</div>
 </div>
+
+<svelte:head>
+	<style>
+		.text-shadow {
+		   text-shadow: 0px 0px 10px black !important;
+		}
+	   </style>
+</svelte:head>
