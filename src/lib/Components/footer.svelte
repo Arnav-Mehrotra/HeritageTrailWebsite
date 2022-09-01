@@ -1,10 +1,8 @@
 <script>
-	let FooterLinks = {
-		data: ['Home', 'Objectives', 'History', 'Contact', 'Sponsors']
-	};
-	console.log(FooterLinks);
+    import * as JSONLinks from '$lib/Assets/sitemap.json';
+	let FooterLinks = JSONLinks;
 
-	// svelte:prefetch
+    
 
 	async function CheckCurrentURL(URL) {
 		return false;

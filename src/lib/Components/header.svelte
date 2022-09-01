@@ -1,7 +1,7 @@
 
 <script>
 import { onMount } from "svelte";
-
+import * as JSONLinks from '$lib/Assets/sitemap.json';
 onMount(()=>{
 
 // Burger menus
@@ -46,13 +46,10 @@ function initJS(){
 }
 initJS();
 })
+console.log(JSONLinks)
 
+    	let HeaderLinks = JSONLinks
 
-
-    	let FooterLinks = {
-		data: ['Home', 'Objectives', 'History', 'Contact', 'Sponsors']
-	};
-	console.log(FooterLinks);
 
 	// svelte:prefetch
 
@@ -77,7 +74,7 @@ initJS();
                   <ul class="flex items-center">
 
 
-                    {#each FooterLinks.data as Link}
+                    {#each HeaderLinks.data as Link}
                     {#if CheckCurrentURL(Link) === true}
                     <li><a class="font-heading block text-base font-medium py-4 px-6 hover:bg-green-50 rounded-sm" href="{Link}">{Link}</a></li>
                     <li class="font-heading mr-12 text-white hover:text-gray-200"><a href="{Link}">{Link}</a></li>
@@ -112,7 +109,7 @@ initJS();
               <ul class="w-full mb-auto pb-16">
 
 
-                {#each FooterLinks.data as Link}
+                {#each HeaderLinks.data as Link}
                 {#if CheckCurrentURL(Link) === true}
                 <li><a class="font-heading block text-base font-medium py-4 px-6 hover:bg-green-50 rounded-sm" href="{Link}">{Link}</a></li>
                 {:else}
