@@ -36,11 +36,6 @@ Footer Code Placement
 
 */
 
-	let FooterLinks = {
-		data: ['Home', 'Objectives', 'History', 'Contact', 'Sponsors']
-	};
-	console.log(FooterLinks);
-
 	// svelte:prefetch
 
 	async function CheckCurrentURL(URL) {
