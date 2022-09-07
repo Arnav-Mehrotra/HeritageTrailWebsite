@@ -46,7 +46,7 @@ function initJS(){
 }
 initJS();
 })
-console.log(JSONLinks)
+
 
     	let HeaderLinks = JSONLinks
 
@@ -89,9 +89,11 @@ console.log(JSONLinks)
                 </div>
               </div>
             </div>
-            <div class="w-auto hidden lg:flex items-center"><a class="inline-block mr-12 font-heading font-medium text-base text-white hover:text-gray-200" href="#">Log in</a><a class="inline-block py-4 px-8 font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200" href="#">Sign up</a></div>
+            <div class="w-auto hidden lg:flex items-center">
+           
+              <a class="inline-block py-4 px-8 font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200" href="https://ipn.paymentus.com/rotp/TNOL">Donate</a></div>
             <div class="w-auto lg:hidden">
-              <a class="navbar-burger inline-flex w-14 h-14 justify-center items-center bg-gray-500 hover:bg-gray-600 rounded-full" href="#">
+              <a class="navbar-burger inline-flex w-14 h-14 justify-center items-center bg-emerald-900 hover:bg-BackgroundColor rounded-full border" href="#">
                 <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M19 9H1M19 1H1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
@@ -104,7 +106,7 @@ console.log(JSONLinks)
           <nav class="relative pt-7 pb-8 bg-white h-full overflow-y-auto">
             <div class="flex flex-col px-6 h-full">
               <a class="inline-block ml-4 mb-7" href="#">
-                <img src="acros-assets/logo/logo-acros-black.svg" alt="">
+                <img src="/Images/heritage trail-dark.png" alt="">
               </a>
               <ul class="w-full mb-auto pb-16">
 
@@ -121,7 +123,7 @@ console.log(JSONLinks)
 
               </ul>
               <div class="w-full">
-                <a class="block w-full py-4 px-4 mb-4 text-center font-heading font-medium text-base hover:text-green-500 border border-gray-900 hover:border-green-500 rounded-sm transition duration-200" href="#">Log in</a><a class="block w-full py-4 px-4 mb-8 text-center font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200" href="#">Sign up</a>
+        <a class="block w-full py-4 px-4 mb-8 text-center font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200" href="https://ipn.paymentus.com/rotp/TNOL">Donate</a>
                 <p class="pl-2 text-sm">2022 © NOTL Heritage Trail</p>
               </div>
             </div>
