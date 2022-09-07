@@ -102,7 +102,7 @@ initJS();
           </div>
         </nav>
         <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
-          <div class="navbar-backdrop fixed inset-0 backdrop-blur backdrop-filter bg-gray-900 bg-opacity-50"></div>
+          <div class="navbar-backdrop fixed inset-0 backdrop-blur backdrop-filter bg-[#000000] bg-opacity-75"></div>
           <nav class="relative pt-7 pb-8 bg-white h-full overflow-y-auto">
             <div class="flex flex-col px-6 h-full">
               <a class="inline-block ml-4 mb-7" href="#">
