@@ -82,8 +82,12 @@
 						{/if}
 					{/if}
 				{/each}
-				<button on:click={() => prev()}>Previous</button>
-				<button on:click={() => next()}>Next</button>
+				<div class="grid grid-cols-4 gap-4">
+					<div class="justify-self-start"><button on:click={() => prev()}>Previous</button></div>
+					<div></div>
+					<div></div>
+					<div class="justify-self-end"><button on:click={() => next()}>Next</button></div>
+				</div>
 			</div>
 		</div>
 		<div class="basis-1/4" />

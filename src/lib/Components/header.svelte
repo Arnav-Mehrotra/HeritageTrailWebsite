@@ -104,7 +104,7 @@ console.log(JSONLinks)
           <nav class="relative pt-7 pb-8 bg-white h-full overflow-y-auto">
             <div class="flex flex-col px-6 h-full">
               <a class="inline-block ml-4 mb-7" href="#">
-                <img src="acros-assets/logo/logo-acros-black.svg" alt="">
+                <img src="Images/heritage trail-light.png" alt="">
               </a>
               <ul class="w-full mb-auto pb-16">
 

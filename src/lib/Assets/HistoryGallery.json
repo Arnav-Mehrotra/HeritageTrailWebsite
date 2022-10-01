@@ -1,0 +1,104 @@
+{
+    "data": [
+        {
+			"name": "New York Train",
+			"src": "Images/Niagara trains (1).jpg",
+			"alt": "New York Centeral Lines Train"
+		},
+		{
+			"name": "Train with a large crowd",
+			"src": "Images/Niagara trains (2).jpg",
+			"alt": "Train with a large crowd of people posed for the photo"
+		},
+		{
+			"name": "Train by the lake",
+			"src": "Images/Niagara trains (3).jpg",
+			"alt": "Shows the train passing by some boaters right by the water's edge"
+		},
+		{
+			"name": "World War 1 Niagara",
+			"src": "Images/Niagara trains (4).jpg",
+			"alt": "People of Niagara gathered for conscription for the first world war"
+		},
+        {
+			"name": "Soldiers gathered to board a train",
+			"src": "Images/Niagara trains (5).jpg",
+			"alt": "Lots of soldiers ready to board the train"
+		},
+		{
+			"name": "The Soldiers Farewell",
+			"src": "Images/Niagara trains (6).jpg",
+			"alt": "The soldiers wave out of the train to their families"
+		},
+        {
+			"name": "Soldiers line up for the train",
+			"src": "Images/Niagara trains (7).jpg",
+			"alt": "The soldiers in formation as their families look at them from the sides"
+		},
+        {
+			"name": "A worker stands by the train",
+			"src": "Images/Niagara trains (8).jpg",
+			"alt": "A train with a worker standing by the front as it extends into the distance"
+		},
+        {
+			"name": "Horse with baskets of fruit",
+			"src": "Images/Niagara trains (9).jpg",
+			"alt": "A horse drawn carriage loaded with stacks of filled fruit baskets"
+		},
+        {
+			"name": "Niagara Farms",
+			"src": "Images/Niagara trains (10).jpg",
+			"alt": "Farmland with a sizeable barn in the background"
+		},
+        {
+			"name": "Train Tracks in Niagara",
+			"src": "Images/Niagara trains (11).jpg",
+			"alt": "A blurry photo of train tracks"
+		},
+        {
+			"name": "Woman by the Train",
+			"src": "Images/Niagara trains (12).jpg",
+			"alt": "shows people watching and waiting by the train"
+		},
+        {
+			"name": "Ice Jam At Queenstone, May 12 1909",
+			"src": "Images/Niagara trains (13).jpg",
+			"alt": "A large group of men seemingly shoveling ice and snow out from the train tracks, piling higher than any of them stand"
+		},
+        {
+			"name": "Train with traingoers",
+			"src": "Images/Niagara trains (14).jpg",
+			"alt": "A train lines the background as some mechanics, a conductor, and the passengers pose for the photo"
+		},
+        {
+			"name": "Michigan Centeral Railroad Ticket",
+			"src": "Images/Niagara trains (15).jpg",
+			"alt": "Train pass for Mr. J.de W.Randall, Wife & Dtr. Between all stations until Decemeber 31st 1906"
+		},
+        {
+			"name": "Niagara, St. Catharines, & Toronto Railway Company Ticket",
+			"src": "Images/Niagara trains (16).jpg",
+			"alt": "The ticket is valid until December 31st 1908"
+		},
+        {
+			"name": "A tipped over train",
+			"src": "Images/Niagara trains (17).jpg",
+			"alt": "A train sideways beside the tracks still running"
+		},
+        {
+			"name": "People stand by the train wreckage",
+			"src": "Images/Niagara trains (18).jpg",
+			"alt": "A woman and child stand beside train wreckage"
+		},
+        {
+			"name": "Men at wreckage",
+			"src": "Images/Niagara trains (19).jpg",
+			"alt": "Some men stand by the wreckage annoyed as another sits on top"
+		},
+        {
+			"name": "Front of the train off the tracks",
+			"src": "Images/Niagara trains (20).jpg",
+			"alt": "A man stands on top of the tipped front of the train"
+		}
+    ]
+}

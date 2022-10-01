@@ -15,7 +15,7 @@
             <div class="flex flex-wrap items-center justify-between -mx-4 pb-12">
                 <div class="w-full lg:w-auto px-4 md:mb-8 lg:mb-8">
                     <a class="inline-block" href="/">
-                        <img src="/Images/logo.jpg" alt="" />
+                        <img src="/Images/heritage trail-light.png" alt="" />
                     </a>
                 </div>
                 <div class="w-full lg:w-auto px-4">
