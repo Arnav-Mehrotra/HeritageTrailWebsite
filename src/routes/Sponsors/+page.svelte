@@ -71,10 +71,9 @@
 				{#each Sponsors as sponsor, id}
 					{#if id == currSlide}
 						{#if id == 0}
-							
-						<h3 class="my-2">{sponsor.name}</h3>
-								<a href="Images/Trail Plaque.pdf" target="_blank">
-								<img src={sponsor.src} alt={sponsor.alt} class="w-full"/>
+							<h3 class="my-2">{sponsor.name}</h3>
+							<a href="Images/Trail Plaque.pdf" target="_blank">
+								<img src={sponsor.src} alt={sponsor.alt} class="w-full" />
 							</a>
 						{:else}
 							<h3 class="my-2">{sponsor.name}</h3>
@@ -85,36 +84,54 @@
 
 				<div class="grid grid-cols-2 w-full mt-4">
 					<div class="flex flex-start">
-						<button on:click={() => prev()} class="bg-emerald-900 rounded-full border p-2 hover:p-3 duration-200">
-				
+						<button
+							on:click={() => prev()}
+							class="bg-emerald-900 rounded-full border p-2 hover:p-3 duration-200"
+						>
 							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
-								  </svg>
-								  
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="w-6 h-6"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+									/>
+								</svg>
 							</span>
-							</button>
+						</button>
 					</div>
 
-<div class="flex flex-row-reverse">
-	<button on:click={() => next()}  class="bg-emerald-900 rounded-full border p-2 hover:p-3 duration-200">
-						
-		<span>
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-				<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-			  </svg>
-			  
-		</span>
-		
-		</button>
-</div>
-
-
-
+					<div class="flex flex-row-reverse">
+						<button
+							on:click={() => next()}
+							class="bg-emerald-900 rounded-full border p-2 hover:p-3 duration-200"
+						>
+							<span>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="w-6 h-6"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+									/>
+								</svg>
+							</span>
+						</button>
+					</div>
 				</div>
-
 			</div>
 		</div>
-
 	</div>
 </div>

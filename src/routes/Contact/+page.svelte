@@ -111,7 +111,7 @@ Footer Code Placement
 								</div>
 								<div>
 									<h4 class="text-lg font-heading text-white mb-2">History</h4>
-									<p class="text-white">Teaching the rich history of the Heritage.</p>
+									<p class="text-white">Teaching the rich history of the Heritage Trail.</p>
 								</div>
 							</div>
 						</div>
